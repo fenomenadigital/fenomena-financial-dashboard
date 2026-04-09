@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --brand-purple: #2D0066;
+  --brand-purple-mid: #3D0088;
+  --brand-purple-light: #6B21C8;
+  --brand-accent: #B06DFF;
+  --brand-glow: #D4A8FF;
+  --surface: #0E0020;
+  --surface-2: #190038;
+  --surface-3: #220050;
+  --surface-card: rgba(45, 0, 102, 0.35);
+  --border: rgba(176, 109, 255, 0.18);
+  --border-strong: rgba(176, 109, 255, 0.42);
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(255,255,255,0.62);
+  --text-muted: rgba(255,255,255,0.36);
+  --green: #2DCC7F;
+  --red: #FF4D6D;
+  --gold: #FFD166;
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+
+html, body { min-height: 100vh; background: var(--surface); color: var(--text-primary); font-family: 'Inter', -apple-system, sans-serif; }
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: 3px; }
